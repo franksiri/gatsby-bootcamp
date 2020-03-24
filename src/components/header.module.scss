@@ -22,6 +22,10 @@
     text-decoration: none;
 }
 
-.link {
-    color: #999999;
+.nav-item:hover {
+    color: #666666;
+}
+
+.active-nav-item {
+    color: #333333;
 }
