@@ -5,6 +5,7 @@ import '../styles/index.scss'
 import headerStyles from './header.module.scss'
 
 const Header = () => {
+    console.log("YYYYYY", headerStyles)
     return (   
         <header className={headerStyles.header}>
             <h1>
@@ -13,9 +14,9 @@ const Header = () => {
                 </Link>
             </h1>
             <nav>
-                <ul className={headerStyles.navlist}>
+                <ul className={headerStyles.navList}>
                     <li>
-                        <Link className={headerStyles.navitem} 
+                        <Link className={headerStyles.navItem} 
                         to="/">Home</Link>
                     </li>
                     <li>
